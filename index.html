@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mohal Music</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="brand"><img src="logo.jpg" style="border-radius: 20px;" alt="Headphone">Headphone</li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <div class="container">
+                <!-- <h1 style="color: rgb(5, 25, 255); background-color: rgb(0, 0, 0); border-radius: 15px; padding: 15px;">My all time favourite Song</h1> -->
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="foverImage.jpeg" alt="1">
+                <span class="songName">Song 1</span>
+                <span class="songlistplay"><span class="timestamp">3:50 <i id="0" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="foverImage.jpeg" alt="1">
+                <span class="songName">Song 2</span>
+                <span class="songlistplay"><span class="timestamp">3:50 <i id="1" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="foverImage.jpeg" alt="1">
+                <span class="songName">Song 3</span>
+                <span class="songlistplay"><span class="timestamp">3:50 <i id="2" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="foverImage.jpeg" alt="1">
+                <span class="songName">Song 4</span>
+                <span class="songlistplay"><span class="timestamp">3:50 <i id="3" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="foverImage.jpeg" alt="1">
+                <span class="songName">Song 5</span>
+                <span class="songlistplay"><span class="timestamp">3:50 <i id="4" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="foverImage.jpeg" alt="1">
+                <span class="songName">Song 5</span>
+                <span class="songlistplay"><span class="timestamp">3:50 <i id="5" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="foverImage.jpeg" alt="1">
+                <span class="songName">Song 5</span>
+                <span class="songlistplay"><span class="timestamp">3:50 <i id="6" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+        </div>
+            <div class="songBanner"></div>
+        </div>
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <!-- fontawesome icons -->
+            <div class="icons">
+                <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+                <i class="fa-sharp fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+                <i class="fa-solid fa-3x fa-forward" id="next"></i>
+            </div>
+            <div class="songInfo">
+                <img src="music_playing.gif" width="70px" alt="" id="gif">
+            </div>
+            <div class="songInfo2">
+                <img src="music_playing.gif" width="70px" alt="" id="gif2">
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/5dc94181ea.js" crossorigin="anonymous"></script>
+    </body>
+</html>

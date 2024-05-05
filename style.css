@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Playball&family=Press+Start+2P&display=swap');
+body {
+    /* background-color: rgb(35, 131, 49); */
+    background-image:url('background.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+nav ul{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    width: 500px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding:0 8px;
+}
+.brand img{
+    width: 50px;
+    padding:0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    /* background-color: black; */
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* display: flex; */
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 34px;
+    /* background-image:url('background.jpg'); */
+    
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    min-width: 500px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 34px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 45px;
+    margin: 0 5px;
+    border-radius: 34px;
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+.songInfo{
+    position: absolute;
+    left:9vw;
+    margin-top: 30px;
+}
+.songInfo2{
+    position: absolute;
+    right:9vw;
+    margin-top: 30px;
+}
+.songInfo img{
+    border-radius: 35px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.songInfo2 img{
+    border-radius: 35px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+/* @media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(24, 190, 148);
+    }
+  } */
+
