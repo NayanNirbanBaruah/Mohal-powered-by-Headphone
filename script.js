@@ -62,6 +62,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
         makeAllPlay();
         songIndex = parseInt(e.target.id);
         gif.style.opacity = 1;
+        gif2.style.opacity = 1;
         e.target.classList.remove('fa-circle-play')
         e.target.classList.add('fa-circle-pause')
         audioElement.src = `song${songIndex + 1}.mp3`;
